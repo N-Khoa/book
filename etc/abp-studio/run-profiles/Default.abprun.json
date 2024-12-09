@@ -1,0 +1,13 @@
+﻿{
+  "applications": {
+    "Acme.BookStore.Blazor": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44330",
+      "path": "../../../src/Acme.BookStore.Blazor/Acme.BookStore.Blazor.csproj",
+      "kubernetesService": ".*-blazorserver$",
+      "execution": {
+        "order": 2
+      }
+}
+  }
+}
